@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+        /*// Declarando variável nome e dizendo pro User digitar.
+        var nome = window.prompt('Seu nome? ')
+
+        // Mostrando na tela o nome usando String template (${}). E mostrando a qtde de letras usando o length.
+        // nome.length: saber a quantidade de letras no nome.
+        document.write(`Olá, ${nome}! Seu nome tem ${nome.length} letras.  </br>`)
+        // document.write: mostra na tela não na window.
+
+        // nome.toUpperCase: transforma o nome todo em letras maiusculas.
+        document.write(`Seu nome em maiusculas fica ${nome.toUpperCase()}. </br>`)
+        
+        // nome.toLowerCase: transforma o nome todo em letras minusculas.
+        document.write(`Seu nome em minusculas fica ${nome.toLowerCase()}.`)*/
+        
+       // Formatando numeros:
+       var n1 = 1453.5
+       alert(n1.toFixed(2)) // Numero com 2 casas decimais.
+
+       // server pra trocar o ponto pela virgula.
+       alert(n1.toFixed(2).replace('.', ','))
+
+       // Serve para formatar colocando em valores de dinheiro.
+       alert(n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}))
+        
+    </script>
+</body>
+</html>
