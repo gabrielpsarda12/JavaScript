@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(74, 69, 69, 0.557);
+    font: normal 20px arial;
+
+}
+
+div {
+    text-align: center;
+    
+}
+
+input {
+    font: normal 15px arial;
+    width: 120px;
+}
+
+div#res {
+    margin-top: 20px;
+}
